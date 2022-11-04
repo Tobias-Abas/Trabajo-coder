@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400;500&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../img/backgrounds/bubble.png);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  color: #BD5EF3;
+  font-family: "Quintessential", cursive;
+}
+
+p {
+  color: #817E7E;
+  line-height: 2rem;
+  font-size: 1.6rem;
+}
+
+.botonera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(238, 188, 247, 0.7);
+}
+.botonera img {
+  width: 180px;
+}
+@media (min-width: 280px) and (max-width: 320px) {
+  .botonera img {
+    width: 100px;
+  }
+}
+.botonera ul {
+  display: flex;
+}
+.botonera ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+.botonera ul li a {
+  font-size: 1.5em;
+  color: deeppink;
+  font-family: "Montserrat", sans-serif;
+}
+.botonera ul li a:hover {
+  color: black;
+}
+
+#productos h1, #productos h2 {
+  text-transform: uppercase;
+  font-size: 3em;
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgba(238, 188, 247, 0.7);
+  font-family: "Roboto", sans-serif;
+  margin: 20px 0;
+}
+#productos .galeria {
+  margin: 20px 0;
+}
+#productos .galeria p.price {
+  color: #3c3c3c;
+  padding-bottom: 10px;
+  background-color: white;
+  text-align: center;
+}
+#productos .galeria figure {
+  margin: 10px 0;
+}
+#productos .galeria figure img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+}
+#productos .galeria figure figcaption {
+  font-size: 1.5em;
+  color: #8000ff;
+  padding: 10px 0;
+  background-color: white;
+  text-align: center;
+}
+#productos .destacados article {
+  background-color: #8000ff;
+}
+#productos .destacados article p {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  padding: 50px;
+  margin: 20px auto;
+  color: white;
+}
+#productos .destacados article h3 {
+  color: white;
+  font-size: 3rem;
+  padding-left: 50px;
+  font-family: Roboto, sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */

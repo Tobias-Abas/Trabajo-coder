@@ -1,0 +1,24 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.sass css/main.css"
+  }, 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tobias-Abas/github-host.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tobias-Abas/github-host/issues"
+  },
+  "homepage": "https://github.com/Tobias-Abas/github-host#readme",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}

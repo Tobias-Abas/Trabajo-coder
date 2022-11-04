@@ -1,0 +1,56 @@
+#productos{
+    h1,h2{
+        text-transform: uppercase;
+        font-size: $textXxl;
+        text-align: center;
+        padding: 20px 0;
+        background-color:$mainColor;
+        font-family: $fontMain;
+        margin: 20px 0;
+    }
+    .galeria{
+        margin: 20px 0;
+        p.price{
+            color:$gris;
+			padding-bottom: 10px;
+			background-color: white;
+			text-align: center;
+        }
+        figure{
+            margin: 10px 0;
+            img{
+                border-top-left-radius: 5px;
+			    border-top-right-radius: 5px;
+			    width: $w-100;
+            }
+            figcaption{
+                font-size: $textXl;
+                color: $secondaryColor ;
+                padding: 10px 0;
+                background-color: white;
+                text-align: center;
+            }
+        }
+    }
+    .destacados{
+        article{
+            background-color:$secondaryColor ;
+            p{
+                font-size: 2rem;
+                line-height: 2.4rem;
+                padding: 50px;
+                margin: 20px auto;
+                color: white;
+            }
+            h3{
+                color: white;
+		        font-size: 3rem;
+		        padding-left: 50px;
+		        font-family: Roboto, sans-serif;
+            }
+        }
+    }
+}
+
+
+

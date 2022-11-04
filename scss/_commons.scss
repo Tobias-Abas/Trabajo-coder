@@ -1,0 +1,29 @@
+//variables globales
+$mainColor:rgba(238,188,247,.7);
+$secondaryColor:#8000ff;
+$keyColor: deeppink;
+$gris:#3c3c3c;
+
+//sizing
+$w-100:100%;
+$w-50:50%;
+$w-25:25%;
+
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background-image: url(../img/backgrounds/bubble.png);
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
